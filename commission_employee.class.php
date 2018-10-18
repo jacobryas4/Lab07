@@ -41,7 +41,7 @@ class CommissionEmployee extends Employee {
         parent::toString();
         printf("Sales: $%0.2f", $this->getSales());
         echo "<br>";
-        printf("Commission Rate: $%0.2f", $this->getCommissionRate());
+        printf("Commission Rate: %0.2f", $this->getCommissionRate());
         echo "<br>";
         printf("Payment Amount: $%0.2f", $this->getPaymentAmount());
         
